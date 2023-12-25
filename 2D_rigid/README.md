@@ -1,16 +1,21 @@
-Run Omni_Robot.ipnb file for CVAE motion planning for 2D Omnidirectional Robot.
+# Omnidirectional Robot Motion Planning using CVAE
 
-Additional Libraries Needed:
-1) NetworkX : pip install networkx
+Run the `Omni_Robot.ipynb` file to implement CVAE motion planning for a 2D Omnidirectional Robot.
 
+## Additional Libraries Needed
 
-Motion Planning scripts:
-1) map_2d.py - reads and initializes the obstacles and map size.
-2) planner.py - initializes the sampling method and visualizes the solution.
-3) robot.py - initializes the robot and corresponding parameters.
-4) PRM.py - used for probabilistic roadmaps to find solution.
-5) RRT.py - used for rapidly exploring random trees to find solution.
-6) sampling_method.py - parent class for PRM and RRT.
-7) utils.py - utilities script.
+- **NetworkX**: Install using `pip install networkx`
 
-Usage: Run Omni_Robot.ipynb to run the main program.
+## Motion Planning Scripts
+
+1. `map_2d.py`: Reads and initializes the obstacles and map size.
+2. `planner.py`: Initializes the sampling method and visualizes the solution.
+3. `robot.py`: Initializes the robot and corresponding parameters.
+4. `PRM.py`: Used for probabilistic roadmaps to find a solution.
+5. `RRT.py`: Used for rapidly exploring random trees to find a solution.
+6. `sampling_method.py`: Parent class for PRM and RRT.
+7. `utils.py`: Utilities script.
+
+## Usage
+
+Run `Omni_Robot.ipynb` to execute the main program.
