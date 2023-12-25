@@ -14,6 +14,9 @@ The CVAE implementation showcases enhanced success rates and convergence across 
 ![Point robot CVAE Path planned](https://github.com/atreyabhat/LearnedSampling_CVAE/assets/39030188/9663d388-66c8-461d-8f51-c07e32e79744)
 ![2D Rigid path with CVAE](https://github.com/atreyabhat/LearnedSampling_CVAE/assets/39030188/d5baf64c-9557-4ed3-852a-bed909751379)
 
+
+![Comparison of Execution Time for Omnidirectional Robot](https://github.com/atreyabhat/LearnedSampling_CVAE/assets/39030188/02998174-4795-474e-91ea-5ed317a5ba21)
+
 ## Limitations and Future Work
 
 - Challenges observed with higher-dimensional robots like n-link chains.
