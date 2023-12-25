@@ -2,6 +2,10 @@
 
 This project explores Conditional Variational Autoencoders (CVAE) for motion planning in different scenarios. It aims to optimize pathfinding by biasing sampling towards successful demonstrations and promising regions in the state space.
 
+We have extended the work present in (https://github.com/StanfordASL/LearnedSamplingDistributions)
+
+We also explore dataset generation for the same, based on different maps, start goal configurations for Point, 2D Rigid and Kinematic chain types. 
+
 ## Overview
 
 Traditional random sampling might inefficiently explore state spaces, especially in constrained environments. CVAE learning targets this issue by focusing sampling efforts where optimal paths are likely to exist.
